@@ -12,8 +12,8 @@ python -m meow --emoji offf
 ## Install
 
 ```bash
-pip install -e .[dev]
-pytest -q
+uv sync
+uv run pytest -q
 ```
 
 See also [Contributing](CONTRIBUTING.md).

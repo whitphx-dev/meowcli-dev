@@ -9,7 +9,14 @@ Thanks for your interest!
 4. CI turns green -> Ready for review
 
 ## Local dev
+
+First, install `uv` (see [official docs](https://docs.astral.sh/uv/getting-started/installation/)):
 ```bash
-pip install -e .[dev]
-# Missing: pytest -q
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Then set up the project:
+```bash
+uv sync
+uv run pytest
 ```
