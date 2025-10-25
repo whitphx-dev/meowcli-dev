@@ -18,5 +18,5 @@ def main() -> None:
     args = parser.parse_args()
 
     # BUG: emoji=offでも絵文字が出てしまう
-    emoji_enabled = args.emoji == "on"
+    emoji_enabled = args.emoji == "on"  # noqa: F841 - kept for workshop exercise
     meow(times=args.times, emoji=True)  # ← 修正対象
