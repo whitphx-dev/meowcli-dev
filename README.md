@@ -9,6 +9,8 @@ python -m meow --times 3
 python -m meow --emoji off
 ```
 
+## TODO: Add more usage examples
+
 ## Install
 
 ```bash
