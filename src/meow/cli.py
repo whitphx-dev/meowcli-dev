@@ -14,10 +14,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="A cute CLI that meows 🐱")
     parser.add_argument("--times", type=int, default=1, help="Number of times to meow")
     parser.add_argument(
-        "--emoji", choices=["on", "off"], default="on", help="Show emoji or not"
+        "--no-emoji", action="store_true", help="Hide the cat emoji in the output"
     )
     args = parser.parse_args()
 
-    # BUG: emoji=offでも絵文字が出てしまう
-    emoji_enabled = args.emoji == "on"  # noqa: F841 - kept for workshop exercise
-    meow(times=args.times, emoji=True)  # ← 修正対象
+    # BUG: --no-emoji option is ignored (for workshop exercise)
+    meow(times=args.times, emoji=True)
