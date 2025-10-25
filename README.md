@@ -6,7 +6,7 @@ A tiny CLI that prints cat sounds. Purfect for first OSS PRs.
 
 ```bash
 python -m meow --times 3
-python -m meow --emoji offf
+python -m meow --emoji off
 ```
 
 ## Install
