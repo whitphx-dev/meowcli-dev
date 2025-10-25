@@ -2,6 +2,7 @@ import argparse
 
 
 def meow(times: int = 1, emoji: bool = True) -> None:
+    # TODO: Add docstring
     for _ in range(times):
         msg = "Meow!"
         if emoji:
