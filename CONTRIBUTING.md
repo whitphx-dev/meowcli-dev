@@ -20,3 +20,15 @@ Then set up the project:
 uv sync
 uv run pytest
 ```
+
+### Code style (Ruff)
+
+Use Ruff for formatting and linting:
+
+```bash
+# Format code
+uv run ruff format .
+
+# Lint and auto-fix simple issues
+uv run ruff check . --fix
+```
