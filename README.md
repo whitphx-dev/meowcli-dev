@@ -1,6 +1,10 @@
 # meowcli
 
-A tiny CLI that prints cat sounds. Purfect for first OSS PRs.
+A tiny CLI that prints cat sounds.
+
+Get greeted by cute cats in your termnial! 🐾
+
+Purrfect for first OSS PRs.
 
 ## Usage
 
