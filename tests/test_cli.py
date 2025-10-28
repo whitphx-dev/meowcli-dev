@@ -16,4 +16,4 @@ def test_meow_multiple(capsys):
 def test_meow_no_emoji(capsys):
     meow(times=1, emoji=False)
     out, _ = capsys.readouterr()
-    assert "🐱" not in out  # ← FAIL想定
+    assert "🐱" not in out
