@@ -18,6 +18,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Then set up the project:
 ```bash
 uv sync
+```
+
+### Running tests
+
+```bash
 uv run pytest
 ```
 
