@@ -17,8 +17,8 @@ uv sync
 ## Usage
 
 ```bash
-python -m meow --times 3
-python -m meow --no-emoji  # Hide the cat emoji
+uv run python -m meow --times 3
+uv run python -m meow --no-emoji  # Hide the cat emoji
 ```
 
 ## TODO: Add more usage examples
